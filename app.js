@@ -43,12 +43,15 @@ generatePasswordBtn.addEventListener('click', createPassword)
 copyBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(passwordBox.value)
     .then(() => {
-        copyBtn.innerHTML = <span>copied</span>;
+        copyBtn.innerHTML = `<span>copied</span>`;
         setTimeout(() => {
-            copyBtn.innerHTML = 
-        }, 2500);
+            copyBtn.innerHTML = `<img src="./images/copy.png" alt="copy" title="copy">`
+        }, 2000);
     })
     .catch (() => {
         copyBtn.textContent = 'not copied'
+        setTimeout(() => {
+            copyBtn.innerHTML = `<img src="./images/copy.png" alt="copy" title="copy">`
+        }, 3000);
     })
 })
