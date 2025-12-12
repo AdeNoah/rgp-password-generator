@@ -82,7 +82,7 @@ body {
 /* responsiveness */
 @media screen and (max-width: 470px) {
   .container {
-    margin: 8%;
+    margin: 70px auto;
     width: 90%;
     max-width: 360px;
   }
@@ -118,5 +118,18 @@ body {
 
   .display img {
     width: 20px;
+  }
+
+  .container button img {
+    width: 14px;
+    margin-right: 10px;
+  }
+
+  .container #generate-password-btn {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
   }
 }
