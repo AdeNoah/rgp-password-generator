@@ -97,4 +97,26 @@ body {
   .container h1 span {
     padding-bottom: 6px;
   }
+
+  .display {
+    width: 100%;
+    margin-right: 0 auto;
+    padding: 13px 10px;
+    border-radius: 5px;
+  }
+
+  .display input {
+    font-size: 18px;
+  }
+
+  .display button {
+    height: auto;
+    width: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .display img {
+    width: 20px;
+  }
 }
