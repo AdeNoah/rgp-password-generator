@@ -91,7 +91,9 @@ body {
     font-size: 25px;
     font-weight: 500;
   }
-
+  .container h1 br {
+    display: none;
+  }
   .container h1 span {
     padding-bottom: 6px;
   }
