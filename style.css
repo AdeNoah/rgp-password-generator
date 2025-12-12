@@ -16,6 +16,17 @@ body {
     max-width: 700px;
 }
 
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
 .display {
     width: 100%;
     margin-top: 50px;
@@ -29,26 +40,23 @@ body {
     border-radius: 5px;
 }
 
-.container h1 {
-    font-weight: 500;
-    font-size: 45px;
-}
-
-.container h1 span {
-    color: #019f55;
-    border-bottom: 4px solid #019f55;
-    padding-bottom: 7px;
-}
-
 .display input {
     border: 0;
     outline: 0;
     font-size: 24px;
 }
 
-.display img {
+.display button {
+    border: 0;
+    outline: 0;
+    background: #fff;
+    height: auto;
     width: 30px;
     cursor: pointer;
+} 
+
+.display img {
+    width: 30px;
 }
 
 .container button img {
@@ -56,7 +64,7 @@ body {
     margin-right: 10px;
 }
 
-.container button {
+.container #generate-password-btn {
     border: 0;
     outline: 0;
     background: #019f55;
